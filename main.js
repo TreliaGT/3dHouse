@@ -120,11 +120,10 @@ function animate() {
     }
 
     if(isshowFloorplan){
-      if( loadedObject.rotation.x >= 1.8 && loadedObject.rotation.y <= 0.5){
+      if( loadedObject.rotation.x >= 1.8 ){
         isshowFloorplan = false;
       }else{
         loadedObject.rotation.x += 0.005;
-        loadedObject.rotation.y -= 0.005
         console.log( loadedObject.rotation.x);
       }
     }
